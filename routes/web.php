@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::get('/first_page', function () {
+    return view('first_page');
+});
+

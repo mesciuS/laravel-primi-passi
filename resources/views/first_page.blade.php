@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SIMIA</title>
 </head>
 <body>
-    <h1>Hello-world di Laravel</h1>
-    <header>
-        <a href="/first_page">Momento SIMIA</a>
-    </header>
+    <img src="https://img-prod.ilfoglio.it/2020/08/05/1505301228227_1505301264_492x275_1596639565632.jpg" alt="immagine divertente">
+    <a href="/home">Back</a>
 </body>
 </html>
