@@ -8,6 +8,7 @@
 </head>
 <body>
     <img src="https://img-prod.ilfoglio.it/2020/08/05/1505301228227_1505301264_492x275_1596639565632.jpg" alt="immagine divertente">
+    <br>
     <a href="/home">Back</a>
 </body>
 </html>

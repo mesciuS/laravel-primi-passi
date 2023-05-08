@@ -9,7 +9,13 @@
 <body>
     <h1>Hello-world di Laravel</h1>
     <header>
-        <a href="/first_page">Momento SIMIA</a>
+        <h3>Le scimmie più forti secondo me</h3>
+        <ol>
+            @foreach ($apes as $ape)
+                <li>{{$ape}}</li>  
+            @endforeach
+        </ol>
     </header>
+    <a href="/first_page">Momento SIMIA</a>
 </body>
 </html>

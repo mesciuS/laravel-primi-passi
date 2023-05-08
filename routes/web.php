@@ -14,7 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/home', function () {
-    return view('home');
+
+    $apes = [
+        'Gorilla',
+        'Orangotango',
+        'Scimpanzè',
+        'Babbuino',
+        'Gibbone'
+
+    ];
+    return view('home', compact('apes'));
 });
 
 Route::get('/first_page', function () {
